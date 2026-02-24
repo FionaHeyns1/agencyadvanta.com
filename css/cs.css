@@ -1,7 +1,7 @@
 .testimonials {
   border-radius: 20px; /* valgfrit, for afrundede kanter */
-  width: fit-content;
-  padding: 10px 30px;
+  width: max-content;
+  padding: 10px 0px;
   background-color: #ffffff; /* black background */
   color: rgb(0, 0, 0); /* tekst color */
   font-weight: 400;
@@ -322,9 +322,19 @@
 
 @media (width>=850px) {
   .testimonials {
-    font-size: 25px;
+    border-radius: 20px; /* valgfrit, for afrundede kanter */
+    width: fit-content;
     padding: 12px 40px;
-    border-radius: 20px;
+    background-color: #ffffff; /* black background */
+    color: rgb(0, 0, 0); /* tekst color */
+    font-weight: 400;
+    margin-bottom: 1.5em;
+    font-size: 25px;
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.25));
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5em;
   }
 
   #client_case {
